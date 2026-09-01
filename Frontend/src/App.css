@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 420px 1fr;
   gap: 16px;
-  min-height: calc(100vh - 57px);
-  padding: 16px;
+  min-height: calc(100vh - 70px);
+  padding: 24px;
 }
 
 .panel {
