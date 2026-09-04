@@ -17,8 +17,8 @@ LLM_DAILY_LIMIT: int = int(os.getenv("LLM_DAILY_LIMIT", "5"))
 # --- GitHub OAuth ---
 GITHUB_CLIENT_ID: str = os.getenv("GITHUB_CLIENT_ID", "")
 GITHUB_CLIENT_SECRET: str = os.getenv("GITHUB_CLIENT_SECRET", "")
-JWT_SECRET: str = os.getenv("JWT_SECRET", "juTlRdbN5JfIAPkrfU8JGqeyw2mhSBgdZBL3b_bmCiY=")
-FERNET_KEY: str = os.getenv("FERNET_KEY", "QRiIDb8T9n_ILVamKlahwgVhqKhBWBw_ceORWKMEXPk=")
+JWT_SECRET: str = os.getenv("JWT_SECRET", "")
+FERNET_KEY: str = os.getenv("FERNET_KEY", "")
 BACKEND_URL: str = os.getenv("BACKEND_URL", "http://localhost:8000")
 FRONTEND_URL: str = os.getenv("FRONTEND_URL", "http://localhost:5173")
 
